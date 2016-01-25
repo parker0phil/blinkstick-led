@@ -1,0 +1,32 @@
+{
+  "name": "blinkstick-led",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.4",
+    "usb": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "testw": "mocha --watch --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parker0phil/blinkstick-led.git"
+  },
+  "author": "@parker0phil",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/parker0phil/blinkstick-led/issues"
+  },
+  "homepage": "https://github.com/parker0phil/blinkstick-led#readme"
+}
